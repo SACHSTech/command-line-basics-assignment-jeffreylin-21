@@ -1,8 +1,9 @@
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
 > pwd
-/home/runner/command-line-basics-assignment-jeffreylin-21/LinuxExercise
+/home/runner/command-line-basics-assignment-jeffreylin-21
 > mkdir LinuxExercise
 > ls
-LinuxExercise
+LinuxExercise README.md  TerminalSession.txt
 > cd LinuxExercise
 > touch myfile.txt
 > echo "this is my file" >> myfile.txt
