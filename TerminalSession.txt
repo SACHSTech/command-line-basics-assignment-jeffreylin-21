@@ -1,1 +1,24 @@
-
+> pwd
+/home/runner/command-line-basics-assignment-jeffreylin-21/LinuxExercise
+> mkdir LinuxExercise
+> ls
+LinuxExercise
+> cd LinuxExercise
+> touch myfile.txt
+> echo "this is my file" >> myfile.txt
+> cat myfile.txt
+this is my file
+> cp myfile.txt myfile_copy.txt
+> ls
+myfile_copy.txt  myfile.txt
+> mv myfile_copy.txt myfile2.txt
+> mv myfile2.txt ~
+ls ~
+command-line-basics-assignment-jeffreylin-21  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+> cd ..
+> rm -r LinuxExercise/myfile.txt
+> rm -r LinuxExercise
+> ls ~
+command-line-basics-assignment-jeffreylin-21  myfile2.txt
+jdt.ls-java-project               _test_runner.py
